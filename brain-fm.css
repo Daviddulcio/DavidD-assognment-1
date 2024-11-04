@@ -1,0 +1,137 @@
+body {
+  background-color: blue;
+  margin: 0px auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 25px;
+  flex-grow: 80;
+}
+
+.section1 {
+  background-color: #0000ff;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section2 {
+
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.section3 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 12px;
+}
+
+.section4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: 130px;
+}
+
+.sec4Wrap {
+}
+
+
+.firstSentence {
+  padding-top: 115px;
+  max-width: 45%;
+}
+
+.middleText {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 69%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.lastText {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 69%;
+  color: white;
+  text-align: justify;
+  justify-content: center;
+}
+
+.text {
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.chairImage {
+  padding-top: 100px;
+}
+
+.forbesImage {
+  flex-basis: 200px;
+  flex-grow: 0;
+  flex-shrink: 1;
+
+}
+
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #999999;
+}
+
+a {
+  font-size: 12px;
+  padding: 50px 5px;
+  text-decoration: none;
+}
+
+
+#TryForFree {
+  color: white;
+  background-color: rgb(255, 74, 8);
+  font-size: 12px;
+  padding: 4px 15px;
+  border: 0px;
+  border-radius: 15px;
+  margin-top: 3px;
+  height: 25px;
+  width: 100px;
+}
+
+#Try5FreeSessions {
+  color: white;
+  background-color: rgb(255, 74, 8);
+  font-size: 12px;
+  padding: 17px 20px;
+  border-radius: 20px;
+  border: 0px
+}
+
+
+
+.cloutPicture {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+}
